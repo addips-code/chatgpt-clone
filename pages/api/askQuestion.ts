@@ -32,8 +32,8 @@ export default async function handler(
         text: response || "ChatGPT could not find an answer for your question",
         createdAt: admin.firestore.Timestamp.now(),
         user: {
-            _id: 'chatGPT',
-            name: 'chatGPT',
+            _id: 'ChatGPT',
+            name: 'ChatGPT',
             avatar: 'https://links.papareact.com/89k',
         },
     };
